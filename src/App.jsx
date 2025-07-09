@@ -76,7 +76,7 @@ function App() {
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-6 font-sans relative">
-      {/* Search input with button */}
+
       <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 w-[90%] max-w-2xl bg-white p-3 rounded-full shadow-lg flex gap-2">
 
         <div className="relative flex-grow">
@@ -113,7 +113,6 @@ function App() {
         </button>
       </div>
 
-      {/* Recent search text */}
       {lastSearchQuery && (
         <div className="mb-6 text-center mt-6 pt-6">
           <p className="text-gray-600">
@@ -125,7 +124,7 @@ function App() {
         </div>
       )}
 
-      {/* Search history */}
+
       {history.length > 0 && (
         <div className="text-center  text-sm text-gray-500 mt-2">
           Recent:{" "}
@@ -141,7 +140,7 @@ function App() {
         </div>
       )}
 
-      {/* Result section */}
+    
       <div className="pb-48">
         {["countries", "divisions", "districts", "spots"].map((type) => {
           const data = searchResults[type];
