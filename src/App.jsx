@@ -89,11 +89,15 @@ function App() {
             className="w-full px-4 py-2 rounded-full border border-gray-300 focus:outline-none text-base"
           />
           {suggestions.length > 0 && (
-            <ul  className="fixed bottom-20 left-1/2 transform -translate-x-1/2 w-[90%] max-w-2xl bg-white border border-gray-200 rounded-lg shadow max-h-60 overflow-y-auto z-50">
+            <ul className="fixed bottom-20 left-1/2 transform -translate-x-1/2 w-[90%] max-w-2xl bg-white border border-gray-200 rounded-lg shadow max-h-60 overflow-y-auto z-50">
               {suggestions.map((s, i) => (
                 <li
                   key={i}
-                  onClick={() => handleSearch(s)}
+                  onClick={() =>{
+                    handleSearch(s);       
+                    setSuggestions([]);
+                  }}
+                  
                   className="px-4 py-2 hover:bg-emerald-100 cursor-pointer"
                 >
                   {s}
@@ -105,9 +109,8 @@ function App() {
         <button
           onClick={() => handleSearch()}
           disabled={searching}
-          className={`px-6 py-2 rounded-full text-white font-semibold text-base transition ${
-            searching ? "bg-gray-400 cursor-not-allowed" : "bg-emerald-600 hover:bg-emerald-700"
-          }`}
+          className={`px-6 py-2 rounded-full text-white font-semibold text-base transition ${searching ? "bg-gray-400 cursor-not-allowed" : "bg-emerald-600 hover:bg-emerald-700"
+            }`}
         >
           {searching ? "..." : "Send"}
         </button>
@@ -140,7 +143,7 @@ function App() {
         </div>
       )}
 
-    
+
       <div className="pb-48">
         {["countries", "divisions", "districts", "spots"].map((type) => {
           const data = searchResults[type];
@@ -154,9 +157,16 @@ function App() {
                   key={item._id || idx}
                   className="border border-gray-300 p-4 mb-4 rounded-md shadow-sm bg-white"
                 >
-                  <h3 className="text-lg font-bold">{item.name || item.division}</h3>
+                  <h3 className="text-lg font-bold">
+                    {type === "countries" && item.name}
+                    {type === "divisions" && item.division}
+                    {type === "districts" && item.name}
+                    {type === "spots" && item.name}
+                  </h3>
+
                   {item.country && <p><b>Country:</b> {item.country}</p>}
                   {item.division && item.name && <p><b>Division:</b> {item.division}</p>}
+                  {item.district && item.name && <p><b>District:</b> {item.district}</p>}
                   {item.description && <p className="mb-1">{item.description}</p>}
                   {item.travel_cost_bdt && <p><b>Travel Cost:</b> {item.travel_cost_bdt} BDT</p>}
                   {item.hotel_rent_bdt && <p><b>Hotel Rent:</b> {item.hotel_rent_bdt} BDT</p>}
