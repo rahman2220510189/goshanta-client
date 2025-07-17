@@ -9,7 +9,7 @@ const Navbar = () => {
       <li><NavLink to='/blog' className="hover:text-yellow-400 font-medium">Blog</NavLink></li>
       <li><NavLink to='/about' className="hover:text-yellow-400 font-medium">About Us</NavLink></li>
       <li><NavLink to='/ai' className="hover:text-yellow-400 font-medium">Chat Ai</NavLink></li>
-      <li><NavLink to='/guide' className="hover:text-yellow-400 font-medium">Travel Guide</NavLink></li>
+      {/* <li><NavLink to='/guide' className="hover:text-yellow-400 font-medium">Travel Guide</NavLink></li> */}
       <li><NavLink to='/hotel' className="hover:text-yellow-400 font-medium">Book Hotel</NavLink></li>
     </>
   );

@@ -1,0 +1,1955 @@
+[
+
+  {
+    "name": "Hotel Sun Palace",
+    "location": {
+      "address": "Business Street, Dhaka 1212",
+      "area": "Motijheel",
+      "district": "Dhaka",
+      "division": "Dhaka"
+    },
+    "image": "https://i.ibb.co/spWdbG1m/download-8.jpg",
+    "reviews": 4.2,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 4500,
+        "amenities": ["Free WiFi", "AC", "TV"]
+      },
+      {
+        "type": "Double Room",
+        "price": 6500,
+        "amenities": ["Free WiFi", "AC", "TV", "Attached Bathroom"]
+      }
+    ],
+    "contact": "+880 2-6666666"
+  },
+  {
+    "name": "Radisson Blu",
+    "location": {
+      "address": "Airport Road, Dhaka 1229",
+      "area": "Gulshan",
+      "district": "Dhaka",
+      "division": "Dhaka"
+    },
+    "image": "https://i.ibb.co/HL1tp3zf/radisson-blu-dhaka-water.jpg",
+    "reviews": 4.7,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 12000,
+        "amenities": ["Free WiFi", "Swimming Pool", "Spa"]
+      },
+      {
+        "type": "Double Room",
+        "price": 18000,
+        "amenities": ["Free WiFi", "Lounge Access", "Mini Bar"]
+      }
+    ],
+    "contact": "+880 2-55667788"
+  },
+  {
+    "name": "Green View Hotel",
+    "location": {
+      "address": "Mirpur Road, Dhaka 1216",
+      "area": "Mirpur",
+      "district": "Dhaka",
+      "division": "Dhaka"
+    },
+    "image": "https://i.ibb.co/S7QNZVdw/7534723-XL.webp",
+    "reviews": 4.0,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 4000,
+        "amenities": ["Free WiFi", "AC", "Breakfast"]
+      },
+      {
+        "type": "Double Room",
+        "price": 6000,
+        "amenities": ["Free WiFi", "AC", "Breakfast", "Room Service"]
+      }
+    ],
+    "contact": "+880 2-7777888"
+  },
+  {
+    "name": "City Comfort Inn",
+    "location": {
+      "address": "Dhanmondi 27, Dhaka 1209",
+      "area": "Dhanmondi",
+      "district": "Dhaka",
+      "division": "Dhaka"
+    },
+    "image": "https://i.ibb.co/v5hk8g5/download-7.jpg",
+    "reviews": 3.8,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 3500,
+        "amenities": ["Free WiFi", "TV"]
+      },
+      {
+        "type": "Double Room",
+        "price": 5000,
+        "amenities": ["Free WiFi", "AC", "Minibar"]
+      }
+    ],
+    "contact": "+880 2-8888999"
+  },
+  {
+    "name": "Royal Stay",
+    "location": {
+      "address": "Banani Road, Dhaka 1213",
+      "area": "Banani",
+      "district": "Dhaka",
+      "division": "Dhaka"
+    },
+    "image": "https://i.ibb.co/zHbtJH1R/download-9.jpg",
+    "reviews": 4.5,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 5500,
+        "amenities": ["Free WiFi", "AC", "Gym"]
+      },
+      {
+        "type": "Double Room",
+        "price": 8000,
+        "amenities": ["Free WiFi", "Spa", "Breakfast"]
+      }
+    ],
+    "contact": "+880 2-9999000"
+  },
+  {
+    "name": "Elite Residency",
+    "location": {
+      "address": "Uttara Sector 7, Dhaka 1230",
+      "area": "Uttara",
+      "district": "Dhaka",
+      "division": "Dhaka"
+    },
+    "image": "https://i.ibb.co/pvwLZGDF/download-10.jpg",
+    "reviews": 4.3,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 4800,
+        "amenities": ["Free WiFi", "TV", "Room Service"]
+      },
+      {
+        "type": "Double Room",
+        "price": 7200,
+        "amenities": ["Free WiFi", "AC", "Balcony"]
+      }
+    ],
+    "contact": "+880 2-1111222"
+  },
+  {
+    "name": "Paradise Inn",
+    "location": {
+      "address": "Old Dhaka, Dhaka 1100",
+      "area": "Old Dhaka",
+      "district": "Dhaka",
+      "division": "Dhaka"
+    },
+    "image": "https://i.ibb.co/sp0Hh12t/images-14.jpg",
+    "reviews": 3.9,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 3200,
+        "amenities": ["Free WiFi", "Fan"]
+      },
+      {
+        "type": "Double Room",
+        "price": 4600,
+        "amenities": ["Free WiFi", "TV", "Attached Bathroom"]
+      }
+    ],
+    "contact": "+880 2-2222333"
+  },
+  {
+    "name": "Starlight Hotel",
+    "location": {
+      "address": "Paltan Road, Dhaka 1000",
+      "area": "Paltan",
+      "district": "Dhaka",
+      "division": "Dhaka"
+    },
+    "image": "https://i.ibb.co/PbZ2yDM/images-15.jpg",
+    "reviews": 4.1,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 4000,
+        "amenities": ["Free WiFi", "AC"]
+      },
+      {
+        "type": "Double Room",
+        "price": 5800,
+        "amenities": ["Free WiFi", "AC", "Breakfast"]
+      }
+    ],
+    "contact": "+880 2-3333444"
+  },
+  {
+    "name": "Skyline Lodge",
+    "location": {
+      "address": "Tejgaon Industrial Area, Dhaka 1208",
+      "area": "Tejgaon",
+      "district": "Dhaka",
+      "division": "Dhaka"
+    },
+    "image": "https://i.ibb.co/JwZh7F25/images-16.jpg",
+    "reviews": 4.4,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 5200,
+        "amenities": ["Free WiFi", "AC", "Gym"]
+      },
+      {
+        "type": "Double Room",
+        "price": 7600,
+        "amenities": ["Free WiFi", "AC", "Minibar", "Breakfast"]
+      }
+    ],
+    "contact": "+880 2-4444555"
+  },
+  {
+    "name": "Moonlit Suites",
+    "location": {
+      "address": "Bashundhara R/A, Dhaka 1229",
+      "area": "Bashundhara",
+      "district": "Dhaka",
+      "division": "Dhaka"
+    },
+    "image": "https://i.ibb.co/rKXm4j07/images-18.jpg",
+    "reviews": 4.6,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 6000,
+        "amenities": ["Free WiFi", "AC", "Spa"]
+      },
+      {
+        "type": "Double Room",
+        "price": 9000,
+        "amenities": ["Free WiFi", "AC", "Lounge Access"]
+      }
+    ],
+    "contact": "+880 2-5555666"
+  },
+ 
+  {
+    "name": "Bayview Hotel",
+    "location": {
+      "address": "Station Road, Chattogram 4000",
+      "area": "Kotwali",
+      "district": "Chattogram",
+      "division": "Chattogram"
+    },
+    "image": "https://i.ibb.co/qF72zb4t/images-19.jpg",
+    "reviews": 4.3,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 3800,
+        "amenities": ["Free WiFi", "AC", "TV"]
+      },
+      {
+        "type": "Double Room",
+        "price": 5500,
+        "amenities": ["Free WiFi", "AC", "Breakfast"]
+      }
+    ],
+    "contact": "+880 31-6666777"
+  },
+  {
+    "name": "Ocean Breeze Resort",
+    "location": {
+      "address": "Marine Drive, Chattogram 4100",
+      "area": "Patenga",
+      "district": "Chattogram",
+      "division": "Chattogram"
+    },
+    "image": "https://i.ibb.co/tTq7szhv/dacbr-entrance-7303-hor-wide.jpg",
+    "reviews": 4.8,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 6500,
+        "amenities": ["Free WiFi", "AC", "Sea View"]
+      },
+      {
+        "type": "Double Room",
+        "price": 9500,
+        "amenities": ["Free WiFi", "AC", "Balcony", "Spa"]
+      }
+    ],
+    "contact": "+880 31-7777888"
+  },
+  {
+    "name": "Hilltop Inn",
+    "location": {
+      "address": "GEC Circle, Chattogram 4203",
+      "area": "Pahartali",
+      "district": "Chattogram",
+      "division": "Chattogram"
+    },
+    "image": "https://i.ibb.co/nsFbWGk1/images-23.jpg",
+    "reviews": 4.0,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 3500,
+        "amenities": ["Free WiFi", "Fan", "TV"]
+      },
+      {
+        "type": "Double Room",
+        "price": 5000,
+        "amenities": ["Free WiFi", "AC", "Room Service"]
+      }
+    ],
+    "contact": "+880 31-8888999"
+  },
+  {
+    "name": "Seaside Retreat",
+    "location": {
+      "address": "Agrabad Commercial Area, Chattogram 4100",
+      "area": "Agrabad",
+      "district": "Chattogram",
+      "division": "Chattogram"
+    },
+    "image": "https://i.ibb.co/VYCB1tzP/images-22.jpg",
+    "reviews": 4.4,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 4200,
+        "amenities": ["Free WiFi", "AC", "Breakfast"]
+      },
+      {
+        "type": "Double Room",
+        "price": 6200,
+        "amenities": ["Free WiFi", "AC", "Minibar"]
+      }
+    ],
+    "contact": "+880 31-9999000"
+  },
+  {
+    "name": "Harbor View Lodge",
+    "location": {
+      "address": "Port Road, Chattogram 4000",
+      "area": "Double Mooring",
+      "district": "Chattogram",
+      "division": "Chattogram"
+    },
+    "image": "https://i.ibb.co/spWdbG1m/download-8.jpg",
+    "reviews": 4.2,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 3900,
+        "amenities": ["Free WiFi", "AC", "TV"]
+      },
+      {
+        "type": "Double Room",
+        "price": 5700,
+        "amenities": ["Free WiFi", "AC", "Attached Bathroom"]
+      }
+    ],
+    "contact": "+880 31-1111222"
+  },
+  {
+    "name": "Coastal Haven",
+    "location": {
+      "address": "Chittagong University Road, Chattogram 4331",
+      "area": "Hathazari",
+      "district": "Chattogram",
+      "division": "Chattogram"
+    },
+    "image": "https://i.ibb.co/S7QNZVdw/7534723-XL.webp",
+    "reviews": 3.9,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 3400,
+        "amenities": ["Free WiFi", "Fan"]
+      },
+      {
+        "type": "Double Room",
+        "price": 4800,
+        "amenities": ["Free WiFi", "TV", "Breakfast"]
+      }
+    ],
+    "contact": "+880 31-2222333"
+  },
+  {
+    "name": "Sunrise Suites",
+    "location": {
+      "address": "Halishahar Road, Chattogram 4216",
+      "area": "Halishahar",
+      "district": "Chattogram",
+      "division": "Chattogram"
+    },
+    "image": "https://i.ibb.co/v5hk8g5/download-7.jpg",
+    "reviews": 4.5,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 5000,
+        "amenities": ["Free WiFi", "AC", "Gym"]
+      },
+      {
+        "type": "Double Room",
+        "price": 7500,
+        "amenities": ["Free WiFi", "AC", "Spa"]
+      }
+    ],
+    "contact": "+880 31-3333444"
+  },
+  {
+    "name": "Cityscape Hotel",
+    "location": {
+      "address": "New Market Area, Chattogram 4000",
+      "area": "Kotwali",
+      "district": "Chattogram",
+      "division": "Chattogram"
+    },
+    "image": "https://i.ibb.co/zHbtJH1R/download-9.jpg",
+    "reviews": 4.1,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 3600,
+        "amenities": ["Free WiFi", "AC"]
+      },
+      {
+        "type": "Double Room",
+        "price": 5200,
+        "amenities": ["Free WiFi", "AC", "Room Service"]
+      }
+    ],
+    "contact": "+880 31-4444555"
+  },
+  {
+    "name": "Golden Sands Resort",
+    "location": {
+      "address": "Cox’s Bazar Road, Chattogram 4370",
+      "area": "Anwara",
+      "district": "Chattogram",
+      "division": "Chattogram"
+    },
+    "image": "https://i.ibb.co/pvwLZGDF/download-10.jpg",
+    "reviews": 4.6,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 6000,
+        "amenities": ["Free WiFi", "AC", "Sea View"]
+      },
+      {
+        "type": "Double Room",
+        "price": 8500,
+        "amenities": ["Free WiFi", "AC", "Balcony", "Breakfast"]
+      }
+    ],
+    "contact": "+880 31-5555666"
+  },
+  {
+    "name": "Pearl View Inn",
+    "location": {
+      "address": "Khulshi Hills, Chattogram 4225",
+      "area": "Khulshi",
+      "district": "Chattogram",
+      "division": "Chattogram"
+    },
+    "image": "https://i.ibb.co/sp0Hh12t/images-14.jpg",
+    "reviews": 4.3,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 4500,
+        "amenities": ["Free WiFi", "AC", "TV"]
+      },
+      {
+        "type": "Double Room",
+        "price": 6800,
+        "amenities": ["Free WiFi", "AC", "Minibar"]
+      }
+    ],
+    "contact": "+880 31-6666888"
+  },
+
+  {
+    "name": "River View Lodge",
+    "location": {
+      "address": "Padma River Road, Rajshahi 6000",
+      "area": "Shaheb Bazar",
+      "district": "Rajshahi",
+      "division": "Rajshahi"
+    },
+    "image": "https://i.ibb.co/PbZ2yDM/images-15.jpg",
+    "reviews": 4.2,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 3800,
+        "amenities": ["Free WiFi", "AC", "TV"]
+      },
+      {
+        "type": "Double Room",
+        "price": 5500,
+        "amenities": ["Free WiFi", "AC", "Breakfast"]
+      }
+    ],
+    "contact": "+880 721-7777888"
+  },
+  {
+    "name": "Mango Garden Hotel",
+    "location": {
+      "address": "Station Road, Rajshahi 6100",
+      "area": "Boalia",
+      "district": "Rajshahi",
+      "division": "Rajshahi"
+    },
+    "image": "https://i.ibb.co/JwZh7F25/images-16.jpg",
+    "reviews": 4.0,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 3500,
+        "amenities": ["Free WiFi", "Fan", "TV"]
+      },
+      {
+        "type": "Double Room",
+        "price": 5000,
+        "amenities": ["Free WiFi", "AC", "Room Service"]
+      }
+    ],
+    "contact": "+880 721-8888999"
+  },
+  {
+    "name": "Silk City Inn",
+    "location": {
+      "address": "Uposhohor Road, Rajshahi 6201",
+      "area": "Uposhohor",
+      "district": "Rajshahi",
+      "division": "Rajshahi"
+    },
+    "image": "https://i.ibb.co/rKXm4j07/images-18.jpg",
+    "reviews": 4.4,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 4200,
+        "amenities": ["Free WiFi", "AC", "Breakfast"]
+      },
+      {
+        "type": "Double Room",
+        "price": 6200,
+        "amenities": ["Free WiFi", "AC", "Minibar"]
+      }
+    ],
+    "contact": "+880 721-9999000"
+  },
+  {
+    "name": "Royal Padma Hotel",
+    "location": {
+      "address": "Laxmipur Road, Rajshahi 6000",
+      "area": "Laxmipur",
+      "district": "Rajshahi",
+      "division": "Rajshahi"
+    },
+    "image": "https://i.ibb.co/qF72zb4t/images-19.jpg",
+    "reviews": 4.3,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 3900,
+        "amenities": ["Free WiFi", "AC", "TV"]
+      },
+      {
+        "type": "Double Room",
+        "price": 5700,
+        "amenities": ["Free WiFi", "AC", "Attached Bathroom"]
+      }
+    ],
+    "contact": "+880 721-1111222"
+  },
+  {
+    "name": "Green Oasis Resort",
+    "location": {
+      "address": "Rajshahi University Area, Rajshahi 6205",
+      "area": "Motihar",
+      "district": "Rajshahi",
+      "division": "Rajshahi"
+    },
+    "image": "https://i.ibb.co/tTq7szhv/dacbr-entrance-7303-hor-wide.jpg",
+    "reviews": 4.5,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 5000,
+        "amenities": ["Free WiFi", "AC", "Gym"]
+      },
+      {
+        "type": "Double Room",
+        "price": 7500,
+        "amenities": ["Free WiFi", "AC", "Spa"]
+      }
+    ],
+    "contact": "+880 721-2222333"
+  },
+  {
+    "name": "Sunset Residency",
+    "location": {
+      "address": "Hatemkha Road, Rajshahi 6000",
+      "area": "Hatemkha",
+      "district": "Rajshahi",
+      "division": "Rajshahi"
+    },
+    "image": "https://i.ibb.co/nsFbWGk1/images-23.jpg",
+    "reviews": 3.9,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 3400,
+        "amenities": ["Free WiFi", "Fan"]
+      },
+      {
+        "type": "Double Room",
+        "price": 4800,
+        "amenities": ["Free WiFi", "TV", "Breakfast"]
+      }
+    ],
+    "contact": "+880 721-3333444"
+  },
+  {
+    "name": "City Comfort Lodge",
+    "location": {
+      "address": "Kazla Road, Rajshahi 6204",
+      "area": "Kazla",
+      "district": "Rajshahi",
+      "division": "Rajshahi"
+    },
+    "image": "https://i.ibb.co/VYCB1tzP/images-22.jpg",
+    "reviews": 4.1,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 3600,
+        "amenities": ["Free WiFi", "AC"]
+      },
+      {
+        "type": "Double Room",
+        "price": 5200,
+        "amenities": ["Free WiFi", "AC", "Room Service"]
+      }
+    ],
+    "contact": "+880 721-4444555"
+  },
+  {
+    "name": "Padma View Suites",
+    "location": {
+      "address": "Shiroil Road, Rajshahi 6000",
+      "area": "Shiroil",
+      "district": "Rajshahi",
+      "division": "Rajshahi"
+    },
+    "image": "https://i.ibb.co/spWdbG1m/download-8.jpg",
+    "reviews": 4.6,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 6000,
+        "amenities": ["Free WiFi", "AC", "River View"]
+      },
+      {
+        "type": "Double Room",
+        "price": 8500,
+        "amenities": ["Free WiFi", "AC", "Balcony", "Breakfast"]
+      }
+    ],
+    "contact": "+880 721-5555666"
+  },
+  {
+    "name": "Heritage Inn",
+    "location": {
+      "address": "Talaimari Road, Rajshahi 6202",
+      "area": "Talaimari",
+      "district": "Rajshahi",
+      "division": "Rajshahi"
+    },
+    "image": "https://i.ibb.co/S7QNZVdw/7534723-XL.webp",
+    "reviews": 4.3,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 4500,
+        "amenities": ["Free WiFi", "AC", "TV"]
+      },
+      {
+        "type": "Double Room",
+        "price": 6800,
+        "amenities": ["Free WiFi", "AC", "Minibar"]
+      }
+    ],
+    "contact": "+880 721-6666888"
+  },
+  {
+    "name": "Starlight Residency",
+    "location": {
+      "address": "Sapura Road, Rajshahi 6203",
+      "area": "Sapura",
+      "district": "Rajshahi",
+      "division": "Rajshahi"
+    },
+    "image": "https://i.ibb.co/v5hk8g5/download-7.jpg",
+    "reviews": 4.2,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 4000,
+        "amenities": ["Free WiFi", "AC", "Breakfast"]
+      },
+      {
+        "type": "Double Room",
+        "price": 6000,
+        "amenities": ["Free WiFi", "AC", "Room Service"]
+      }
+    ],
+    "contact": "+880 721-7777999"
+  },
+ 
+  {
+    "name": "Riverside Inn",
+    "location": {
+      "address": "Bhawani Road, Khulna 9000",
+      "area": "Daulatpur",
+      "district": "Khulna",
+      "division": "Khulna"
+    },
+    "image": "https://i.ibb.co/zHbtJH1R/download-9.jpg",
+    "reviews": 4.1,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 3700,
+        "amenities": ["Free WiFi", "AC", "TV"]
+      },
+      {
+        "type": "Double Room",
+        "price": 5400,
+        "amenities": ["Free WiFi", "AC", "Breakfast"]
+      }
+    ],
+    "contact": "+880 41-6666777"
+  },
+  {
+    "name": "Sundarban View Hotel",
+    "location": {
+      "address": "Jessore Road, Khulna 9100",
+      "area": "Sonadanga",
+      "district": "Khulna",
+      "division": "Khulna"
+    },
+    "image": "https://i.ibb.co/pvwLZGDF/download-10.jpg",
+    "reviews": 4.5,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 5000,
+        "amenities": ["Free WiFi", "AC", "Gym"]
+      },
+      {
+        "type": "Double Room",
+        "price": 7500,
+        "amenities": ["Free WiFi", "AC", "Spa"]
+      }
+    ],
+    "contact": "+880 41-7777888"
+  },
+  {
+    "name": "City Plaza Hotel",
+    "location": {
+      "address": "Khalishpur Road, Khulna 9000",
+      "area": "Khalishpur",
+      "district": "Khulna",
+      "division": "Khulna"
+    },
+    "image": "https://i.ibb.co/sp0Hh12t/images-14.jpg",
+    "reviews": 4.0,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 3500,
+        "amenities": ["Free WiFi", "Fan", "TV"]
+      },
+      {
+        "type": "Double Room",
+        "price": 5000,
+        "amenities": ["Free WiFi", "AC", "Room Service"]
+      }
+    ],
+    "contact": "+880 41-8888999"
+  },
+  {
+    "name": "Royal Khulna Lodge",
+    "location": {
+      "address": "Shamsur Rahman Road, Khulna 9100",
+      "area": "Khulna Sadar",
+      "district": "Khulna",
+      "division": "Khulna"
+    },
+    "image": "https://i.ibb.co/PbZ2yDM/images-15.jpg",
+    "reviews": 4.3,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 4200,
+        "amenities": ["Free WiFi", "AC", "Breakfast"]
+      },
+      {
+        "type": "Double Room",
+        "price": 6200,
+        "amenities": ["Free WiFi", "AC", "Minibar"]
+      }
+    ],
+    "contact": "+880 41-9999000"
+  },
+  {
+    "name": "River Breeze Resort",
+    "location": {
+      "address": "Rupsa Ghat, Khulna 9240",
+      "area": "Rupsa",
+      "district": "Khulna",
+      "division": "Khulna"
+    },
+    "image": "https://i.ibb.co/JwZh7F25/images-16.jpg",
+    "reviews": 4.6,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 6000,
+        "amenities": ["Free WiFi", "AC", "River View"]
+      },
+      {
+        "type": "Double Room",
+        "price": 8500,
+        "amenities": ["Free WiFi", "AC", "Balcony", "Breakfast"]
+      }
+    ],
+    "contact": "+880 41-1111222"
+  },
+  {
+    "name": "Elite Khulna Suites",
+    "location": {
+      "address": "Boyra Road, Khulna 9000",
+      "area": "Boyra",
+      "district": "Khulna",
+      "division": "Khulna"
+    },
+    "image": "https://i.ibb.co/rKXm4j07/images-18.jpg",
+    "reviews": 4.2,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 3900,
+        "amenities": ["Free WiFi", "AC", "TV"]
+      },
+      {
+        "type": "Double Room",
+        "price": 5700,
+        "amenities": ["Free WiFi", "AC", "Attached Bathroom"]
+      }
+    ],
+    "contact": "+880 41-2222333"
+  },
+  {
+    "name": "Green Haven Inn",
+    "location": {
+      "address": "Fulbari Gate, Khulna 9100",
+      "area": "Fulbari",
+      "district": "Khulna",
+      "division": "Khulna"
+    },
+    "image": "https://i.ibb.co/qF72zb4t/images-19.jpg",
+    "reviews": 3.9,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 3400,
+        "amenities": ["Free WiFi", "Fan"]
+      },
+      {
+        "type": "Double Room",
+        "price": 4800,
+        "amenities": ["Free WiFi", "TV", "Breakfast"]
+      }
+    ],
+    "contact": "+880 41-3333444"
+  },
+  {
+    "name": "Starlight Khulna",
+    "location": {
+      "address": "Khan Jahan Ali Road, Khulna 9100",
+      "area": "Khulna Sadar",
+      "district": "Khulna",
+      "division": "Khulna"
+    },
+    "image": "https://i.ibb.co/tTq7szhv/dacbr-entrance-7303-hor-wide.jpg",
+    "reviews": 4.4,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 5000,
+        "amenities": ["Free WiFi", "AC", "Gym"]
+      },
+      {
+        "type": "Double Room",
+        "price": 7500,
+        "amenities": ["Free WiFi", "AC", "Spa"]
+      }
+    ],
+    "contact": "+880 41-4444555"
+  },
+  {
+    "name": "Moonlit Khulna Hotel",
+    "location": {
+      "address": "Nirala Road, Khulna 9000",
+      "area": "Nirala",
+      "district": "Khulna",
+      "division": "Khulna"
+    },
+    "image": "https://i.ibb.co/nsFbWGk1/images-23.jpg",
+    "reviews": 4.1,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 3600,
+        "amenities": ["Free WiFi", "AC"]
+      },
+      {
+        "type": "Double Room",
+        "price": 5200,
+        "amenities": ["Free WiFi", "AC", "Room Service"]
+      }
+    ],
+    "contact": "+880 41-5555666"
+  },
+  {
+    "name": "Heritage Khulna Lodge",
+    "location": {
+      "address": "BIDC Road, Khulna 9100",
+      "area": "Shibbari",
+      "district": "Khulna",
+      "division": "Khulna"
+    },
+    "image": "https://i.ibb.co/VYCB1tzP/images-22.jpg",
+    "reviews": 4.3,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 4500,
+        "amenities": ["Free WiFi", "AC", "TV"]
+      },
+      {
+        "type": "Double Room",
+        "price": 6800,
+        "amenities": ["Free WiFi", "AC", "Minibar"]
+      }
+    ],
+    "contact": "+880 41-6666888"
+  },
+ 
+  {
+    "name": "Coral Reef Resort",
+    "location": {
+      "address": "Marine Drive, Cox’s Bazar 4700",
+      "area": "Kolatoli",
+      "district": "Cox’s Bazar",
+      "division": "Chattogram"
+    },
+    "image": "https://i.ibb.co/spWdbG1m/download-8.jpg",
+    "reviews": 4.7,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 6000,
+        "amenities": ["Free WiFi", "AC", "Sea View"]
+      },
+      {
+        "type": "Double Room",
+        "price": 9000,
+        "amenities": ["Free WiFi", "AC", "Balcony", "Spa"]
+      }
+    ],
+    "contact": "+880 341-1111222"
+  },
+  {
+    "name": "Ocean Pearl Hotel",
+    "location": {
+      "address": "Laboni Beach Road, Cox’s Bazar 4700",
+      "area": "Laboni",
+      "district": "Cox’s Bazar",
+      "division": "Chattogram"
+    },
+    "image": "https://i.ibb.co/S7QNZVdw/7534723-XL.webp",
+    "reviews": 4.5,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 5500,
+        "amenities": ["Free WiFi", "AC", "TV"]
+      },
+      {
+        "type": "Double Room",
+        "price": 8000,
+        "amenities": ["Free WiFi", "AC", "Breakfast", "Sea View"]
+      }
+    ],
+    "contact": "+880 341-2222333"
+  },
+  {
+    "name": "Seaside Serenity",
+    "location": {
+      "address": "Sugandha Beach Road, Cox’s Bazar 4700",
+      "area": "Sugandha",
+      "district": "Cox’s Bazar",
+      "division": "Chattogram"
+    },
+    "image": "https://i.ibb.co/v5hk8g5/download-7.jpg",
+    "reviews": 4.3,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 5000,
+        "amenities": ["Free WiFi", "AC", "Gym"]
+      },
+      {
+        "type": "Double Room",
+        "price": 7500,
+        "amenities": ["Free WiFi", "AC", "Balcony"]
+      }
+    ],
+    "contact": "+880 341-3333444"
+  },
+  {
+    "name": "Beachfront Lodge",
+    "location": {
+      "address": "Himchari Road, Cox’s Bazar 4701",
+      "area": "Himchari",
+      "district": "Cox’s Bazar",
+      "division": "Chattogram"
+    },
+    "image": "https://i.ibb.co/zHbtJH1R/download-9.jpg",
+    "reviews": 4.4,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 5200,
+        "amenities": ["Free WiFi", "AC", "Breakfast"]
+      },
+      {
+        "type": "Double Room",
+        "price": 7800,
+        "amenities": ["Free WiFi", "AC", "Minibar", "Sea View"]
+      }
+    ],
+    "contact": "+880 341-4444555"
+  },
+  {
+    "name": "Sunset Bay Resort",
+    "location": {
+      "address": "Inani Beach Road, Cox’s Bazar 4750",
+      "area": "Inani",
+      "district": "Cox’s Bazar",
+      "division": "Chattogram"
+    },
+    "image": "https://i.ibb.co/pvwLZGDF/download-10.jpg",
+    "reviews": 4.6,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 6200,
+        "amenities": ["Free WiFi", "AC", "Spa"]
+      },
+      {
+        "type": "Double Room",
+        "price": 9200,
+        "amenities": ["Free WiFi", "AC", "Balcony", "Breakfast"]
+      }
+    ],
+    "contact": "+880 341-5555666"
+  },
+  {
+    "name": "Wave Crest Hotel",
+    "location": {
+      "address": "Pechardwip Road, Cox’s Bazar 4700",
+      "area": "Pechardwip",
+      "district": "Cox’s Bazar",
+      "division": "Chattogram"
+    },
+    "image": "https://i.ibb.co/sp0Hh12t/images-14.jpg",
+    "reviews": 4.2,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 4500,
+        "amenities": ["Free WiFi", "AC", "TV"]
+      },
+      {
+        "type": "Double Room",
+        "price": 6800,
+        "amenities": ["Free WiFi", "AC", "Room Service"]
+      }
+    ],
+    "contact": "+880 341-6666777"
+  },
+  {
+    "name": "Mermaid Inn",
+    "location": {
+      "address": "Kalatali Road, Cox’s Bazar 4700",
+      "area": "Kalatali",
+      "district": "Cox’s Bazar",
+      "division": "Chattogram"
+    },
+    "image": "https://i.ibb.co/PbZ2yDM/images-15.jpg",
+    "reviews": 4.1,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 4000,
+        "amenities": ["Free WiFi", "Fan"]
+      },
+      {
+        "type": "Double Room",
+        "price": 5800,
+        "amenities": ["Free WiFi", "AC", "Breakfast"]
+      }
+    ],
+    "contact": "+880 341-7777888"
+  },
+  {
+    "name": "Blue Horizon Resort",
+    "location": {
+      "address": "Main Road, Cox’s Bazar 4700",
+      "area": "Cox’s Bazar Sadar",
+      "district": "Cox’s Bazar",
+      "division": "Chattogram"
+    },
+    "image": "https://i.ibb.co/JwZh7F25/images-16.jpg",
+    "reviews": 4.5,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 5700,
+        "amenities": ["Free WiFi", "AC", "Gym"]
+      },
+      {
+        "type": "Double Room",
+        "price": 8500,
+        "amenities": ["Free WiFi", "AC", "Spa", "Sea View"]
+      }
+    ],
+    "contact": "+880 341-8888999"
+  },
+  {
+    "name": "Sandy Shores Hotel",
+    "location": {
+      "address": "Dulahazra Road, Cox’s Bazar 4710",
+      "area": "Dulahazra",
+      "district": "Cox’s Bazar",
+      "division": "Chattogram"
+    },
+    "image": "https://i.ibb.co/rKXm4j07/images-18.jpg",
+    "reviews": 4.3,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 4800,
+        "amenities": ["Free WiFi", "AC", "TV"]
+      },
+      {
+        "type": "Double Room",
+        "price": 7200,
+        "amenities": ["Free WiFi", "AC", "Minibar"]
+      }
+    ],
+    "contact": "+880 341-9999000"
+  },
+  {
+    "name": "Starfish Suites",
+    "location": {
+      "address": "Ramu Road, Cox’s Bazar 4730",
+      "area": "Ramu",
+      "district": "Cox’s Bazar",
+      "division": "Chattogram"
+    },
+    "image": "https://i.ibb.co/qF72zb4t/images-19.jpg",
+    "reviews": 4.4,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 5300,
+        "amenities": ["Free WiFi", "AC", "Breakfast"]
+      },
+      {
+        "type": "Double Room",
+        "price": 7900,
+        "amenities": ["Free WiFi", "AC", "Balcony", "Room Service"]
+      }
+    ],
+    "contact": "+880 341-1111333"
+  },
+
+  {
+    "name": "Hill View Lodge",
+    "location": {
+      "address": "Sadar Road, Sylhet 3100",
+      "area": "Zindabazar",
+      "district": "Sylhet",
+      "division": "Sylhet"
+    },
+    "image": "https://i.ibb.co/tTq7szhv/dacbr-entrance-7303-hor-wide.jpg",
+    "reviews": 4.4,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 4500,
+        "amenities": ["Free WiFi", "AC", "TV"]
+      },
+      {
+        "type": "Double Room",
+        "price": 6800,
+        "amenities": ["Free WiFi", "AC", "Breakfast", "Minibar"]
+      }
+    ],
+    "contact": "+880 821-6666777"
+  },
+  {
+    "name": "Tea Garden Resort",
+    "location": {
+      "address": "Airport Road, Sylhet 3101",
+      "area": "Ambarkhana",
+      "district": "Sylhet",
+      "division": "Sylhet"
+    },
+    "image": "https://i.ibb.co/nsFbWGk1/images-23.jpg",
+    "reviews": 4.6,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 5500,
+        "amenities": ["Free WiFi", "AC", "Garden View"]
+      },
+      {
+        "type": "Double Room",
+        "price": 8200,
+        "amenities": ["Free WiFi", "AC", "Spa", "Breakfast"]
+      }
+    ],
+    "contact": "+880 821-7777888"
+  },
+  {
+    "name": "Rose Valley Hotel",
+    "location": {
+      "address": "Mirer Moidan, Sylhet 3100",
+      "area": "Mirer Moidan",
+      "district": "Sylhet",
+      "division": "Sylhet"
+    },
+    "image": "https://i.ibb.co/VYCB1tzP/images-22.jpg",
+    "reviews": 4.2,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 4000,
+        "amenities": ["Free WiFi", "AC", "TV"]
+      },
+      {
+        "type": "Double Room",
+        "price": 6000,
+        "amenities": ["Free WiFi", "AC", "Room Service"]
+      }
+    ],
+    "contact": "+880 821-8888999"
+  },
+  {
+    "name": "Green Hills Inn",
+    "location": {
+      "address": "Jaintapur Road, Sylhet 3156",
+      "area": "Jaintapur",
+      "district": "Sylhet",
+      "division": "Sylhet"
+    },
+    "image": "https://i.ibb.co/spWdbG1m/download-8.jpg",
+    "reviews": 4.3,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 4200,
+        "amenities": ["Free WiFi", "AC", "Breakfast"]
+      },
+      {
+        "type": "Double Room",
+        "price": 6500,
+        "amenities": ["Free WiFi", "AC", "Minibar"]
+      }
+    ],
+    "contact": "+880 821-9999000"
+  },
+  {
+    "name": "Sylhet City Lodge",
+    "location": {
+      "address": "Bandar Bazar Road, Sylhet 3100",
+      "area": "Bandar Bazar",
+      "district": "Sylhet",
+      "division": "Sylhet"
+    },
+    "image": "https://i.ibb.co/S7QNZVdw/7534723-XL.webp",
+    "reviews": 4.0,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 3500,
+        "amenities": ["Free WiFi", "Fan", "TV"]
+      },
+      {
+        "type": "Double Room",
+        "price": 5200,
+        "amenities": ["Free WiFi", "AC", "Breakfast"]
+      }
+    ],
+    "contact": "+880 821-1111222"
+  },
+  {
+    "name": "Starlight Sylhet",
+    "location": {
+      "address": "Chowhatta Road, Sylhet 3100",
+      "area": "Chowhatta",
+      "district": "Sylhet",
+      "division": "Sylhet"
+    },
+    "image": "https://i.ibb.co/v5hk8g5/download-7.jpg",
+    "reviews": 4.5,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 5000,
+        "amenities": ["Free WiFi", "AC", "Gym"]
+      },
+      {
+        "type": "Double Room",
+        "price": 7500,
+        "amenities": ["Free WiFi", "AC", "Spa"]
+      }
+    ],
+    "contact": "+880 821-2222333"
+  },
+  {
+    "name": "Valley View Resort",
+    "location": {
+      "address": "Golapganj Road, Sylhet 3160",
+      "area": "Golapganj",
+      "district": "Sylhet",
+      "division": "Sylhet"
+    },
+    "image": "https://i.ibb.co/zHbtJH1R/download-9.jpg",
+    "reviews": 4.4,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 4800,
+        "amenities": ["Free WiFi", "AC", "TV"]
+      },
+      {
+        "type": "Double Room",
+        "price": 7200,
+        "amenities": ["Free WiFi", "AC", "Balcony"]
+      }
+    ],
+    "contact": "+880 821-3333444"
+  },
+  {
+    "name": "Emerald Suites",
+    "location": {
+      "address": "Shibganj Road, Sylhet 3100",
+      "area": "Shibganj",
+      "district": "Sylhet",
+      "division": "Sylhet"
+    },
+    "image": "https://i.ibb.co/pvwLZGDF/download-10.jpg",
+    "reviews": 4.3,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 4500,
+        "amenities": ["Free WiFi", "AC", "Breakfast"]
+      },
+      {
+        "type": "Double Room",
+        "price": 6800,
+        "amenities": ["Free WiFi", "AC", "Minibar"]
+      }
+    ],
+    "contact": "+880 821-4444555"
+  },
+  {
+    "name": "Sylhet Heritage Inn",
+    "location": {
+      "address": "Lama Bazar Road, Sylhet 3100",
+      "area": "Lama Bazar",
+      "district": "Sylhet",
+      "division": "Sylhet"
+    },
+    "image": "https://i.ibb.co/sp0Hh12t/images-14.jpg",
+    "reviews": 4.1,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 4000,
+        "amenities": ["Free WiFi", "AC", "TV"]
+      },
+      {
+        "type": "Double Room",
+        "price": 6000,
+        "amenities": ["Free WiFi", "AC", "Room Service"]
+      }
+    ],
+    "contact": "+880 821-5555666"
+  },
+  {
+    "name": "Moonlit Sylhet Hotel",
+    "location": {
+      "address": "Upashahar Road, Sylhet 3100",
+      "area": "Upashahar",
+      "district": "Sylhet",
+      "division": "Sylhet"
+    },
+    "image": "https://i.ibb.co/PbZ2yDM/images-15.jpg",
+    "reviews": 4.5,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 5200,
+        "amenities": ["Free WiFi", "AC", "Gym"]
+      },
+      {
+        "type": "Double Room",
+        "price": 7800,
+        "amenities": ["Free WiFi", "AC", "Spa", "Breakfast"]
+      }
+    ],
+    "contact": "+880 821-6666888"
+  },
+
+  {
+    "name": "Riverbank Inn",
+    "location": {
+      "address": "Kirtankhola River Road, Barishal 8200",
+      "area": "Nathullabad",
+      "district": "Barishal",
+      "division": "Barishal"
+    },
+    "image": "https://i.ibb.co/JwZh7F25/images-16.jpg",
+    "reviews": 4.2,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 3800,
+        "amenities": ["Free WiFi", "AC", "River View"]
+      },
+      {
+        "type": "Double Room",
+        "price": 5500,
+        "amenities": ["Free WiFi", "AC", "Breakfast"]
+      }
+    ],
+    "contact": "+880 431-7777888"
+  },
+  {
+    "name": "Delta View Hotel",
+    "location": {
+      "address": "Sadar Road, Barishal 8200",
+      "area": "Sadar Bazar",
+      "district": "Barishal",
+      "division": "Barishal"
+    },
+    "image": "https://i.ibb.co/rKXm4j07/images-18.jpg",
+    "reviews": 4.4,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 4200,
+        "amenities": ["Free WiFi", "AC", "TV"]
+      },
+      {
+        "type": "Double Room",
+        "price": 6200,
+        "amenities": ["Free WiFi", "AC", "Room Service"]
+      }
+    ],
+    "contact": "+880 431-8888999"
+  },
+  {
+    "name": "Riverside Retreat",
+    "location": {
+      "address": "Band Road, Barishal 8200",
+      "area": "Bandar",
+      "district": "Barishal",
+      "division": "Barishal"
+    },
+    "image": "https://i.ibb.co/qF72zb4t/images-19.jpg",
+    "reviews": 4.3,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 4000,
+        "amenities": ["Free WiFi", "AC", "Breakfast"]
+      },
+      {
+        "type": "Double Room",
+        "price": 6000,
+        "amenities": ["Free WiFi", "AC", "Minibar"]
+      }
+    ],
+    "contact": "+880 431-9999000"
+  },
+  {
+    "name": "City Comfort Barishal",
+    "location": {
+      "address": "Nobogram Road, Barishal 8200",
+      "area": "Nobogram",
+      "district": "Barishal",
+      "division": "Barishal"
+    },
+    "image": "https://i.ibb.co/tTq7szhv/dacbr-entrance-7303-hor-wide.jpg",
+    "reviews": 4.0,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 3500,
+        "amenities": ["Free WiFi", "Fan", "TV"]
+      },
+      {
+        "type": "Double Room",
+        "price": 5200,
+        "amenities": ["Free WiFi", "AC", "Breakfast"]
+      }
+    ],
+    "contact": "+880 431-1111222"
+  },
+  {
+    "name": "Green Delta Lodge",
+    "location": {
+      "address": "C&B Road, Barishal 8200",
+      "area": "Kashipur",
+      "district": "Barishal",
+      "division": "Barishal"
+    },
+    "image": "https://i.ibb.co/nsFbWGk1/images-23.jpg",
+    "reviews": 4.5,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 5000,
+        "amenities": ["Free WiFi", "AC", "Gym"]
+      },
+      {
+        "type": "Double Room",
+        "price": 7500,
+        "amenities": ["Free WiFi", "AC", "Spa"]
+      }
+    ],
+    "contact": "+880 431-2222333"
+  },
+  {
+    "name": "Royal Barishal Suites",
+    "location": {
+      "address": "Hospital Road, Barishal 8200",
+      "area": "Chak Bazar",
+      "district": "Barishal",
+      "division": "Barishal"
+    },
+    "image": "https://i.ibb.co/VYCB1tzP/images-22.jpg",
+    "reviews": 4.1,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 3900,
+        "amenities": ["Free WiFi", "AC", "TV"]
+      },
+      {
+        "type": "Double Room",
+        "price": 5700,
+        "amenities": ["Free WiFi", "AC", "Attached Bathroom"]
+      }
+    ],
+    "contact": "+880 431-3333444"
+  },
+  {
+    "name": "Sunset River Hotel",
+    "location": {
+      "address": "Alekanda Road, Barishal 8200",
+      "area": "Alekanda",
+      "district": "Barishal",
+      "division": "Barishal"
+    },
+    "image": "https://i.ibb.co/spWdbG1m/download-8.jpg",
+    "reviews": 4.3,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 4500,
+        "amenities": ["Free WiFi", "AC", "River View"]
+      },
+      {
+        "type": "Double Room",
+        "price": 6800,
+        "amenities": ["Free WiFi", "AC", "Balcony"]
+      }
+    ],
+    "contact": "+880 431-4444555"
+  },
+  {
+    "name": "Starlight Barishal",
+    "location": {
+      "address": "Kathuria Road, Barishal 8200",
+      "area": "Kathuria",
+      "district": "Barishal",
+      "division": "Barishal"
+    },
+    "image": "https://i.ibb.co/S7QNZVdw/7534723-XL.webp",
+    "reviews": 4.2,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 4000,
+        "amenities": ["Free WiFi", "AC", "Breakfast"]
+      },
+      {
+        "type": "Double Room",
+        "price": 6000,
+        "amenities": ["Free WiFi", "AC", "Room Service"]
+      }
+    ],
+    "contact": "+880 431-5555666"
+  },
+  {
+    "name": "Heritage Barishal Inn",
+    "location": {
+      "address": "Bangla Bazar Road, Barishal 8200",
+      "area": "Bangla Bazar",
+      "district": "Barishal",
+      "division": "Barishal"
+    },
+    "image": "https://i.ibb.co/v5hk8g5/download-7.jpg",
+    "reviews": 4.4,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 4800,
+        "amenities": ["Free WiFi", "AC", "TV"]
+      },
+      {
+        "type": "Double Room",
+        "price": 7200,
+        "amenities": ["Free WiFi", "AC", "Minibar"]
+      }
+    ],
+    "contact": "+880 431-6666777"
+  },
+  {
+    "name": "Moonlit Barishal Lodge",
+    "location": {
+      "address": "BM College Road, Barishal 8200",
+      "area": "Kawnia",
+      "district": "Barishal",
+      "division": "Barishal"
+    },
+    "image": "https://i.ibb.co/zHbtJH1R/download-9.jpg",
+    "reviews": 4.5,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 5200,
+        "amenities": ["Free WiFi", "AC", "Gym"]
+      },
+      {
+        "type": "Double Room",
+        "price": 7800,
+        "amenities": ["Free WiFi", "AC", "Spa", "Breakfast"]
+      }
+    ],
+    "contact": "+880 431-7777999"
+  },
+
+  {
+    "name": "City Plaza Hotel",
+    "location": {
+      "address": "Sadar Road, Bogura 5800",
+      "area": "Sadar Bazar",
+      "district": "Bogura",
+      "division": "Rajshahi"
+    },
+    "image": "https://i.ibb.co/pvwLZGDF/download-10.jpg",
+    "reviews": 4.3,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 4000,
+        "amenities": ["Free WiFi", "AC", "TV"]
+      },
+      {
+        "type": "Double Room",
+        "price": 6000,
+        "amenities": ["Free WiFi", "AC", "Room Service"]
+      }
+    ],
+    "contact": "+880 51-6666777"
+  },
+  {
+    "name": "Green View Bogura",
+    "location": {
+      "address": "Station Road, Bogura 5800",
+      "area": "Satmatha",
+      "district": "Bogura",
+      "division": "Rajshahi"
+    },
+    "image": "https://i.ibb.co/sp0Hh12t/images-14.jpg",
+    "reviews": 4.1,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 3500,
+        "amenities": ["Free WiFi", "Fan", "TV"]
+      },
+      {
+        "type": "Double Room",
+        "price": 5200,
+        "amenities": ["Free WiFi", "AC", "Breakfast"]
+      }
+    ],
+    "contact": "+880 51-7777888"
+  },
+  {
+    "name": "Royal Bogura Lodge",
+    "location": {
+      "address": "Nawabbari Road, Bogura 5800",
+      "area": "Nawabbari",
+      "district": "Bogura",
+      "division": "Rajshahi"
+    },
+    "image": "https://i.ibb.co/PbZ2yDM/images-15.jpg",
+    "reviews": 4.4,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 4200,
+        "amenities": ["Free WiFi", "AC", "Breakfast"]
+      },
+      {
+        "type": "Double Room",
+        "price": 6200,
+        "amenities": ["Free WiFi", "AC", "Minibar"]
+      }
+    ],
+    "contact": "+880 51-8888999"
+  },
+  {
+    "name": "Starlight Bogura",
+    "location": {
+      "address": "Kazi Nazrul Islam Road, Bogura 5800",
+      "area": "Jaleshwaritola",
+      "district": "Bogura",
+      "division": "Rajshahi"
+    },
+    "image": "https://i.ibb.co/JwZh7F25/images-16.jpg",
+    "reviews": 4.2,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 3900,
+        "amenities": ["Free WiFi", "AC", "TV"]
+      },
+      {
+        "type": "Double Room",
+        "price": 5700,
+        "amenities": ["Free WiFi", "AC", "Attached Bathroom"]
+      }
+    ],
+    "contact": "+880 51-9999000"
+  },
+  {
+    "name": "Heritage Bogura Inn",
+    "location": {
+      "address": "Sherpur Road, Bogura 5800",
+      "area": "Sherpur",
+      "district": "Bogura",
+      "division": "Rajshahi"
+    },
+    "image": "https://i.ibb.co/rKXm4j07/images-18.jpg",
+    "reviews": 4.5,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 5000,
+        "amenities": ["Free WiFi", "AC", "Gym"]
+      },
+      {
+        "type": "Double Room",
+        "price": 7500,
+        "amenities": ["Free WiFi", "AC", "Spa"]
+      }
+    ],
+    "contact": "+880 51-1111222"
+  },
+  {
+    "name": "Moonlit Bogura Hotel",
+    "location": {
+      "address": "Banani Road, Bogura 5800",
+      "area": "Banani",
+      "district": "Bogura",
+      "division": "Rajshahi"
+    },
+    "image": "https://i.ibb.co/qF72zb4t/images-19.jpg",
+    "reviews": 4.0,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 3400,
+        "amenities": ["Free WiFi", "Fan"]
+      },
+      {
+        "type": "Double Room",
+        "price": 4800,
+        "amenities": ["Free WiFi", "TV", "Breakfast"]
+      }
+    ],
+    "contact": "+880 51-2222333"
+  },
+  {
+    "name": "Cityscape Bogura",
+    "location": {
+      "address": "Mofiz Paglar Mor, Bogura 5800",
+      "area": "Mofiz Paglar Mor",
+      "district": "Bogura",
+      "division": "Rajshahi"
+    },
+    "image": "https://i.ibb.co/tTq7szhv/dacbr-entrance-7303-hor-wide.jpg",
+    "reviews": 4.3,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 4500,
+        "amenities": ["Free WiFi", "AC", "TV"]
+      },
+      {
+        "type": "Double Room",
+        "price": 6800,
+        "amenities": ["Free WiFi", "AC", "Minibar"]
+      }
+    ],
+    "contact": "+880 51-3333444"
+  },
+  {
+    "name": "Green Oasis Bogura",
+    "location": {
+      "address": "Gohail Road, Bogura 5800",
+      "area": "Gohail",
+      "district": "Bogura",
+      "division": "Rajshahi"
+    },
+    "image": "https://i.ibb.co/nsFbWGk1/images-23.jpg",
+    "reviews": 4.4,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 4800,
+        "amenities": ["Free WiFi", "AC", "Breakfast"]
+      },
+      {
+        "type": "Double Room",
+        "price": 7200,
+        "amenities": ["Free WiFi", "AC", "Balcony"]
+      }
+    ],
+    "contact": "+880 51-4444555"
+  },
+  {
+    "name": "Royal Comfort Bogura",
+    "location": {
+      "address": "Uposhohor Road, Bogura 5800",
+      "area": "Uposhohor",
+      "district": "Bogura",
+      "division": "Rajshahi"
+    },
+    "image": "https://i.ibb.co/VYCB1tzP/images-22.jpg",
+    "reviews": 4.2,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 4000,
+        "amenities": ["Free WiFi", "AC", "TV"]
+      },
+      {
+        "type": "Double Room",
+        "price": 6000,
+        "amenities": ["Free WiFi", "AC", "Room Service"]
+      }
+    ],
+    "contact": "+880 51-5555666"
+  },
+  {
+    "name": "Sunset Bogura Suites",
+    "location": {
+      "address": "Matidali Road, Bogura 5800",
+      "area": "Matidali",
+      "district": "Bogura",
+      "division": "Rajshahi"
+    },
+    "image": "https://i.ibb.co/spWdbG1m/download-8.jpg",
+    "reviews": 4.5,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 5200,
+        "amenities": ["Free WiFi", "AC", "Gym"]
+      },
+      {
+        "type": "Double Room",
+        "price": 7800,
+        "amenities": ["Free WiFi", "AC", "Spa", "Breakfast"]
+      }
+    ],
+    "contact": "+880 51-6666888"
+  },
+
+  {
+    "name": "Hilltop Retreat",
+    "location": {
+      "address": "Kaptai Lake Road, Rangamati 4500",
+      "area": "Reserve Bazar",
+      "district": "Rangamati",
+      "division": "Chattogram"
+    },
+    "image": "https://i.ibb.co/S7QNZVdw/7534723-XL.webp",
+    "reviews": 4.5,
+    "room_types": [
+      {
+        "type": "Single Room",
+        "price": 5000,
+        "amenities": ["Free WiFi", "AC", "Lake View"]
+      },
+      {
+        "type": "Double Room",
+        "price": 7500,
+        "amenities": ["Free WiFi", "AC", "Balcony", "Spa"]
+      }
+    ],
+    "contact": "+880 351-1111222"
+  }
+]

@@ -6,7 +6,7 @@ export default {
   theme: {
     extend: {
       keyframes: {
-          bgFadeZoom: {
+        bgFadeZoom: {
           '0%': {
             opacity: '0',
             transform: 'scale(1.1)',
@@ -16,15 +16,20 @@ export default {
             transform: 'scale(1)',
           },
         },
-      
+        marquee: {
+          '0%': {
+            transform: 'translateX(100%)',
+          },
+          '100%': {
+            transform: 'translateX(-100%)',
+          },
+        },
       },
       animation: {
-      
-         bgFadeZoom: 'bgFadeZoom 1.5s ease-out forwards',
+        bgFadeZoom: 'bgFadeZoom 1.5s ease-out forwards',
+        marquee: 'marquee 15s linear infinite',
       },
     },
   },
   plugins: [require('daisyui')],
 }
-
-
