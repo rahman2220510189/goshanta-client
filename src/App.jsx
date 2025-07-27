@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
@@ -9,6 +10,7 @@ function App() {
     divisions: [],
     countries: [],
     districts: [],
+    wikipedia: null
   });
   const [searching, setSearching] = useState(false);
   const [suggestions, setSuggestions] = useState([]);
@@ -22,13 +24,28 @@ function App() {
 
     const timer = setTimeout(async () => {
       try {
-        const res = await axios.get(`http://localhost:5000/api/search?q=${searchQuery}`);
-        const data = res.data;
+        const [dbRes, wikiRes] = await Promise.all([
+           axios.get(`http://localhost:5000/api/search?q=${searchQuery}`),
+          axios.get(`http://localhost:5000/api/wiki-suggestions?q=${searchQuery}`)
+        ]);
+
+        // const res = await axios.get(`http://localhost:5000/api/search?q=${searchQuery}`);
+        // const data = res.data;
+        // const all = [
+        //   ...data.spots.map(i => i.name),
+        //   ...data.districts.map(i => i.name),
+        //   ...data.divisions.map(i => i.division),
+        //   ...data.countries.map(i => i.name)
+        // ];
+            const dbData = dbRes.data;
+        const wikiSuggestions = wikiRes.data.suggestions || [];
+
         const all = [
-          ...data.spots.map(i => i.name),
-          ...data.districts.map(i => i.name),
-          ...data.divisions.map(i => i.division),
-          ...data.countries.map(i => i.name)
+          ...dbData.spots.map(i => i.name),
+          ...dbData.districts.map(i => i.name),
+          ...dbData.divisions.map(i => i.division),
+          ...dbData.countries.map(i => i.name),
+          ...wikiSuggestions
         ];
         const unique = [...new Set(all)].slice(0, 5);
         setSuggestions(unique);
@@ -47,19 +64,26 @@ function App() {
 
     setSearching(true);
     try {
-      const res = await axios.get(`http://localhost:5000/api/search?q=${encodeURIComponent(finalQuery)}`);
-      if (res.data) {
-        setSearchResults({
-          spots: res.data.spots || [],
-          divisions: res.data.divisions || [],
-          countries: res.data.countries || [],
-          districts: res.data.districts || [],
-        });
-        setLastSearchQuery(finalQuery);
-        setHistory(prev => [finalQuery, ...prev.filter(item => item !== finalQuery)].slice(0, 5));
-        setSearchQuery("");
-        setSuggestions([]);
-      }
+      const [mainRes, wikiRes] = await Promise.all([
+        axios.get(`http://localhost:5000/api/search?q=${encodeURIComponent(finalQuery)}`),
+        axios.get(`http://localhost:5000/api/wikipedia?q=${encodeURIComponent(finalQuery)}`)
+      ]);
+
+      const mainData = mainRes.data;
+      const wikiData = wikiRes.data;
+
+      setSearchResults({
+        spots: mainData.spots || [],
+        divisions: mainData.divisions || [],
+        countries: mainData.countries || [],
+        districts: mainData.districts || [],
+        wikipedia: wikiData || null
+      });
+
+      setLastSearchQuery(finalQuery);
+      setHistory(prev => [finalQuery, ...prev.filter(item => item !== finalQuery)].slice(0, 5));
+      setSearchQuery("");
+      setSuggestions([]);
     } catch (err) {
       console.error("Search error:", err);
     } finally {
@@ -78,7 +102,6 @@ function App() {
     <div className="max-w-5xl mx-auto px-4 py-6 font-sans relative">
 
       <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 w-[90%] max-w-2xl bg-white p-3 rounded-full shadow-lg flex gap-2">
-
         <div className="relative flex-grow">
           <input
             type="text"
@@ -93,11 +116,10 @@ function App() {
               {suggestions.map((s, i) => (
                 <li
                   key={i}
-                  onClick={() =>{
-                    handleSearch(s);       
+                  onClick={() => {
+                    handleSearch(s);
                     setSuggestions([]);
                   }}
-                  
                   className="px-4 py-2 hover:bg-emerald-100 cursor-pointer"
                 >
                   {s}
@@ -109,8 +131,9 @@ function App() {
         <button
           onClick={() => handleSearch()}
           disabled={searching}
-          className={`px-6 py-2 rounded-full text-white font-semibold text-base transition ${searching ? "bg-gray-400 cursor-not-allowed" : "bg-emerald-600 hover:bg-emerald-700"
-            }`}
+          className={`px-6 py-2 rounded-full text-white font-semibold text-base transition ${
+            searching ? "bg-gray-400 cursor-not-allowed" : "bg-emerald-600 hover:bg-emerald-700"
+          }`}
         >
           {searching ? "..." : "Send"}
         </button>
@@ -119,7 +142,7 @@ function App() {
       {lastSearchQuery && (
         <div className="mb-6 text-center mt-6 pt-6">
           <p className="text-gray-600">
-            Showing results for:{" "}
+            Showing results for: {" "}
             <span className="font-semibold text-emerald-600">
               {lastSearchQuery}
             </span>
@@ -127,10 +150,9 @@ function App() {
         </div>
       )}
 
-
       {history.length > 0 && (
-        <div className="text-center  text-sm text-gray-500 mt-2">
-          Recent:{" "}
+        <div className="text-center text-sm text-gray-500 mt-2">
+          Recent: {" "}
           {history.map((item, i) => (
             <span
               key={i}
@@ -143,8 +165,27 @@ function App() {
         </div>
       )}
 
-
       <div className="pb-48">
+        {searchResults.wikipedia && (
+          <div className="bg-white p-4 rounded-md shadow-md mb-4">
+            <h2 className="text-2xl font-bold mb-2">Wikipedia</h2>
+            <h3 className="text-lg font-semibold">{searchResults.wikipedia.title}</h3>
+            <p className="text-sm text-gray-600 mb-2">{searchResults.wikipedia.description}</p>
+            <p className="mb-2">{searchResults.wikipedia.extract}</p>
+            {searchResults.wikipedia.image && (
+              <img src={searchResults.wikipedia.image} alt={searchResults.wikipedia.title} className="w-full max-w-md rounded-md mb-2" />
+            )}
+            <a
+              href={searchResults.wikipedia.wikipedia_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 underline"
+            >
+              Read more on Wikipedia
+            </a>
+          </div>
+        )}
+
         {["countries", "divisions", "districts", "spots"].map((type) => {
           const data = searchResults[type];
           if (!data.length) return null;
@@ -171,6 +212,19 @@ function App() {
                   {item.travel_cost_bdt && <p><b>Travel Cost:</b> {item.travel_cost_bdt} BDT</p>}
                   {item.hotel_rent_bdt && <p><b>Hotel Rent:</b> {item.hotel_rent_bdt} BDT</p>}
                   {item.travel_tips && <p><b>Travel Tips:</b> {item.travel_tips}</p>}
+                  {item.wikipedia && (
+                    <p>
+                      <b>Wikipedia:</b>{" "}
+                      <a
+                        href={item.wikipedia}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-600 underline"
+                      >
+                        {item.wikipedia}
+                      </a>
+                    </p>
+                  )}
                   {item.user_reviews && item.user_reviews.length > 0 && (
                     <div>
                       <b>User Reviews:</b>

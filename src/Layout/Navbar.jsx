@@ -35,7 +35,7 @@ const Navbar = () => {
             </ul>
           </div>
           <Link to="/" className="btn btn-ghost text-xl font-bold tracking-tight">
-            goShanta<span className="text-yellow-400">.Ai</span>
+            JetSetGo<span className="text-yellow-400">.Ai</span>
           </Link>
         </div>
 
