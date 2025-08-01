@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
@@ -59,37 +58,44 @@ function App() {
   }, [searchQuery]);
 
   const handleSearch = async (q) => {
-    const finalQuery = q || searchQuery.trim();
-    if (!finalQuery) return;
+  const finalQuery = q || searchQuery.trim();
+  if (!finalQuery) return;
 
-    setSearching(true);
-    try {
-      const [mainRes, wikiRes] = await Promise.all([
-        axios.get(`http://localhost:5000/api/search?q=${encodeURIComponent(finalQuery)}`),
-        axios.get(`http://localhost:5000/api/wikipedia?q=${encodeURIComponent(finalQuery)}`)
-      ]);
+  setSearching(true);
+  try {
+    const [mainRes, wikiRes] = await Promise.all([
+      axios.get(`http://localhost:5000/api/search?q=${encodeURIComponent(finalQuery)}`),
+      axios.get(`http://localhost:5000/api/wikipedia?q=${encodeURIComponent(finalQuery)}`)
+    ]);
 
-      const mainData = mainRes.data;
-      const wikiData = wikiRes.data;
+    const mainData = mainRes.data;
+    const wikiData = wikiRes.data;
 
-      setSearchResults({
-        spots: mainData.spots || [],
-        divisions: mainData.divisions || [],
-        countries: mainData.countries || [],
-        districts: mainData.districts || [],
-        wikipedia: wikiData || null
-      });
+    const hasDBData =
+      (mainData.spots && mainData.spots.length > 0) ||
+      (mainData.divisions && mainData.divisions.length > 0) ||
+      (mainData.countries && mainData.countries.length > 0) ||
+      (mainData.districts && mainData.districts.length > 0);
 
-      setLastSearchQuery(finalQuery);
-      setHistory(prev => [finalQuery, ...prev.filter(item => item !== finalQuery)].slice(0, 5));
-      setSearchQuery("");
-      setSuggestions([]);
-    } catch (err) {
-      console.error("Search error:", err);
-    } finally {
-      setSearching(false);
-    }
-  };
+    setSearchResults({
+      spots: hasDBData ? mainData.spots || [] : [],
+      divisions: hasDBData ? mainData.divisions || [] : [],
+      countries: hasDBData ? mainData.countries || [] : [],
+      districts: hasDBData ? mainData.districts || [] : [],
+      wikipedia: wikiData || null
+    });
+
+    setLastSearchQuery(finalQuery);
+    setHistory(prev => [finalQuery, ...prev.filter(item => item !== finalQuery)].slice(0, 5));
+    setSearchQuery("");
+    setSuggestions([]);
+  } catch (err) {
+    console.error("Search error:", err);
+  } finally {
+    setSearching(false);
+  }
+};
+
 
   const onSearchKeyDown = (e) => {
     if (e.key === "Enter") {
