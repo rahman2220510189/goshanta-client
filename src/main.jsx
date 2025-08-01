@@ -21,6 +21,7 @@ import HotelSearch from "./Pages/Hotels/HotelSearch.jsx";
 import AboutUs from "./Pages/About/AboutUs.jsx";
 import HotelBookingForm from "./Pages/Hotels/HotelBookingForm.jsx";
 import BlogForm from "./Pages/BlogPages/BlogForm.jsx";
+import SignIn from "./Pages/SignIn/SignIn.jsx";
 
 
 
@@ -88,7 +89,11 @@ const router = createBrowserRouter([
       {
         path:'booking',
         element:<BlogForm></BlogForm>,
-      }
+      },
+      {
+       path: 'signin',
+       element:<SignIn></SignIn>,
+      },
     ]
 
   },

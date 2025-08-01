@@ -5,7 +5,9 @@ import Fotter from "./Fotter";
 
 const Main = () => {
     const location = useLocation();
-    const hideLayoutFor = ['/ai'];
+    const hideLayoutFor = ['/ai','/signin'];
+   
+
     const isFullScreen = hideLayoutFor.includes(location.pathname)
 
     return (
