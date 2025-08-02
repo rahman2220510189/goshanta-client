@@ -22,6 +22,8 @@ import AboutUs from "./Pages/About/AboutUs.jsx";
 import HotelBookingForm from "./Pages/Hotels/HotelBookingForm.jsx";
 import BlogForm from "./Pages/BlogPages/BlogForm.jsx";
 import SignIn from "./Pages/SignIn/SignIn.jsx";
+import SignUp from "./Pages/SingnUp/SignUp.jsx";
+
 
 
 
@@ -94,6 +96,10 @@ const router = createBrowserRouter([
        path: 'signin',
        element:<SignIn></SignIn>,
       },
+      {
+        path:'signup',
+        element:<SignUp></SignUp>,
+      },
     ]
 
   },
@@ -103,7 +109,11 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById("root")).render(
 
     <React.StrictMode>
-    <RouterProvider router={router} />
+  
+
+      <RouterProvider router={router} />
+
+ 
   </React.StrictMode>
 
 );
