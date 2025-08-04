@@ -42,7 +42,7 @@ const SignIn = () => {
     const password = e.target.password.value;
 
     if (!isStrongPassword(password)) {
-      alert('Weak Password ❌');
+      alert('Weak Password ');
       return;
     }
 
@@ -105,7 +105,7 @@ const SignIn = () => {
           {password && (
             <p className={`text-sm ${isStrongPassword(password) ? 'text-green-600' : 'text-red-500'}`}>
               {isStrongPassword(password)
-                ? 'Strong password ✅'
+                ? 'Strong password '
                 : 'Password must be 8+ chars, contain upper/lowercase & number'}
             </p>
           )}
