@@ -67,7 +67,7 @@ const SignUp = () =>  {
           {password && (
             <p className={`text-sm ${isStrongPassword(password) ? 'text-green-600' : 'text-red-500'}`}>
               {isStrongPassword(password)
-                ? 'Strong password ✅'
+                ? 'Strong password '
                 : 'Password must be 8+ chars, contain upper/lowercase & number'}
             </p>
           )}
